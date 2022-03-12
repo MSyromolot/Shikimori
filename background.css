@@ -17,7 +17,7 @@ body { background: url(https://wallpaperforu.com/wp-content/uploads/2020/05/anim
 	visibility: hidden;
 }
 
-/* Avatar *//*
+/* Avatar */
 .p-profiles .profile-head .c-brief .avatar {
   position: relative;
 }
@@ -33,7 +33,7 @@ body { background: url(https://wallpaperforu.com/wp-content/uploads/2020/05/anim
 
 .p-profiles .profile-head .c-brief .avatar img {
   opacity: 0;
-}*/
+}
 
 /* Удаление полос менюшки по бокам от тела сайта */
 .l-top_menu-v2 {
