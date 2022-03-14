@@ -1,0 +1,29 @@
+/* Прогрессбар и сортировка ачивок в профиле */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/AchivmentStatusbarAndSort.css);
+
+/* Настройки шаблона */
+:root {
+	/*Переименовываем "достижения"*/
+	--achivment-rename: 'Ачивки';
+
+	/*отступ прогрессбара снизу*/
+	--achivment-progressbar-position-b: 6px;
+
+	/*отступ прогрессбара сбоку*/
+	--achivment-progressbar-position-lr: 8px;
+
+	/*высота прогрессбара*/
+	--achivment-progressbar-height: 3px;
+
+	/*толщина обводки прогрессбара*/
+	--achivment-progressbar-border: 1px;
+
+	/*отступ между достижениями*/
+	--achivment-margin: 1%;
+
+	/*сортировка ачивок: -1 - от больших к меньшим, 1 - от меньших к большим, 0 - без сортировки*/
+	--achivment-sort: -1;
+
+	/*картинка подложки прогрессбара*/
+	--achivment-progressbar-bg: url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/img/bg_white.jpg);
+}
