@@ -1,3 +1,7 @@
 .b-achievement[data-hint*="Спорт 4-го уровня"] img { 
   content: url("https://i.pinimg.com/originals/f5/65/01/f565011e7f79085a68fc212d6d8ccbd0.gif");
 }
+
+.b-achievement[data-hint*="Хоррор / Триллер 4-го уровня"] img { 
+  content: url("https://pa1.aminoapps.com/5890/4f952cafd467d1ca3cafb37a1062e111ef2b1231_hq.gif");
+}
