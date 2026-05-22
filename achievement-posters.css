@@ -1,5 +1,5 @@
-.b-achievement[data-hint*="Спорт 4-го уровня"] img { 
-  content: url("https://i.pinimg.com/originals/f5/65/01/f565011e7f79085a68fc212d6d8ccbd0.gif");
+.b-achievement[data-hint*="Спорт 2-го уровня"] img { 
+  content: url("https://raw.githubusercontent.com/MSyromolot/Other/mainrep/achievement-sport-2.gif");
 }
 
 .b-achievement[data-hint*="Хоррор / Триллер 4-го уровня"] img { 
