@@ -1,44 +1,23 @@
-/* Прогрессбар и сортировка ачивок в профиле */
-@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/AchivmentStatusbarAndSort.css);
-
-/* Настройки шаблона */
-:root {
-	/*Переименовываем "достижения"*/
-	--achivment-rename: 'Ачивки';
-
-	/*отступ прогрессбара снизу*/
-	--achivment-progressbar-position-b: 6px;
-
-	/*отступ прогрессбара сбоку*/
-	--achivment-progressbar-position-lr: 8px;
-
-	/*высота прогрессбара*/
-	--achivment-progressbar-height: 3px;
-
-	/*толщина обводки прогрессбара*/
-	--achivment-progressbar-border: 1px;
-
-	/*отступ между достижениями*/
-	--achivment-margin: 1%;
-
-	/*сортировка ачивок: -1 - от больших к меньшим, 1 - от меньших к большим, 0 - без сортировки*/
-	--achivment-sort: -1;
-
-	/*картинка подложки прогрессбара*/
-	--achivment-progressbar-bg: url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/img/bg_white.jpg);
-}
-
-
-/*Circle .achievements*/
 .b-achievement .c-image .inner a .border {
     border: none;
 }
 
-.b-achievement .c-image .inner a img, .b-achievement .c-image .inner a .no-image, .b-badge img, .b-badge .no-image{
-	border-radius: 10px;
+.b-achievement .c-image .inner a img,
+.b-achievement .c-image .inner a .no-image,
+.b-badge img,
+.b-badge .no-image,
+.b-user.avatar img,
+.b-user.named_avatar img,
+.b-user.avatar_fixed_margin img {
+    border-radius: var(--radius-lg);
 }
 
-.b-achievement.is-badge:before {
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+.b-achievement.is-badge:before,
+.p-profiles-show .achievements .cc-franchises .b-badge::before {
+    border-bottom-left-radius: var(--radius-lg);
+    border-bottom-right-radius: var(--radius-lg);
+}
+
+.submenu-triangle img {
+    border-radius: var(--radius-lg);
 }

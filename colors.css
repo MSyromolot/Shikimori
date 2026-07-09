@@ -1,7 +1,23 @@
 .l-page {
-  background: #000000b0;
+    background: var(--page-background);
+    margin: var(--page-margin-top) auto;
+    border-radius: var(--radius-sm);
 }
 
-.p-profiles .profile-head .c-brief header h1{
-    color: #ffffff;
-  }
+.p-profiles .profile-head .c-brief header h1 {
+    color: var(--heading-color);
+}
+
+.midheadline,
+.subheadline {
+    color: var(--subheading-color);
+    text-align: center;
+}
+
+.c-column.block_m .subheadline {
+    text-align: left;
+}
+
+.b-stats_bar {
+    background: var(--stats-bar-background);
+}

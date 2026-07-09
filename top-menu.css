@@ -1,0 +1,20 @@
+.l-top_menu-v2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.x1000 .l-top_menu-v2 {
+    max-width: 1000px;
+}
+
+.b-comments-notifier {
+    top: 46px !important;
+}
+
+.b-feedback {
+    display: none;
+}

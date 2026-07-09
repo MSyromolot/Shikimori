@@ -1,0 +1,7 @@
+img {
+    border-radius: var(--radius-md);
+}
+
+.p-profiles .profile-head .c-history .entry img {
+    border-radius: var(--radius-sm);
+}

@@ -1,0 +1,69 @@
+/*
+ * Точка входа для профиля Shikimori.
+ * Вставьте содержимое этого файла в настройки оформления профиля.
+ * Все настройки — в :root ниже. Стили разбиты по компонентам.
+ *
+ * Репозиторий: https://github.com/MSyromolot/Shikimori
+ * Ветка: mainrep
+ */
+
+/* === Внешние модули === */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/AchivmentStatusbarAndSort.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/activityBar.css);
+
+/* === Компоненты === */
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/background.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/colors.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/global.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/top-menu.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/avatar.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/profile-head.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/stats-lists.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/lifetime.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/achievements.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/achievement-posters.css);
+@import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/other.css);
+
+/* Опциональные модули — раскомментируйте при необходимости */
+/* @import url(https://raw.githubusercontent.com/MSyromolot/Shikimori/mainrep/sortAnimeInCollection.css); */
+
+/* === Настройки === */
+:root {
+    /* Фон страницы */
+    --background-url: url(https://raw.githubusercontent.com/MSyromolot/Other/mainrep/anime-background-2.jpg);
+
+    /* Аватар */
+    --avatar-url: url(https://raw.githubusercontent.com/MSyromolot/Other/mainrep/zenitsu-2.gif);
+    --avatar-border-radius: 100px;
+
+    /* Тёмная тема */
+    --page-background: #000000b0;
+    --page-margin-top: 70px;
+    --heading-color: #ffffff;
+    --subheading-color: #e8e8e8;
+    --stats-bar-background: #ffffff18;
+    --border-color: #e8e4e4;
+
+    /* Списки аниме / манги */
+    --anime-stat-bg: #ddedfb;
+    --anime-stat-color: #4682b4;
+    --manga-stat-bg: #e1ffe4;
+    --manga-stat-color: #6fb171;
+    --manga-bar-first: #46b455;
+    --manga-bar-second: #79cf85;
+
+    /* Скругления */
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
+
+    /* Достижения (модуль kaurkaur) */
+    --achivment-rename: 'Достижения';
+    --achivment-progressbar-position-b: 6px;
+    --achivment-progressbar-position-lr: 8px;
+    --achivment-progressbar-height: 3px;
+    --achivment-progressbar-border: 1px;
+    --achivment-margin: 1%;
+    --achivment-sort: -1;
+    --achivment-progressbar-bg: url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/img/bg_white.jpg);
+}

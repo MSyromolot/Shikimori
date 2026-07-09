@@ -1,0 +1,89 @@
+.profile-head .c-info .c-lists-info .b-stats_bar.anime .stat_name a {
+    background: var(--anime-stat-bg);
+    color: var(--anime-stat-color);
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar.manga .stat_name a {
+    background: var(--manga-stat-bg);
+    color: var(--manga-stat-color);
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name {
+    border-radius: var(--radius-sm);
+    margin: 0 10px 5px 0;
+    display: inline-grid;
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name a {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: var(--radius-sm);
+    box-shadow: 2px 1px 3px 0 rgba(154, 147, 140, .5);
+    transition: all .3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.b-stats_bar .stat_names {
+    margin-top: 10px;
+}
+
+.b-stats_bar .stat_names .stat_name:after {
+    display: none;
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name a:hover {
+    text-decoration: none;
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, .25), 2px 9px 8px rgba(0, 0, 0, .22);
+    z-index: 1000;
+}
+
+.b-stats_bar {
+    border: thin solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 10px;
+}
+
+.b-stats_bar.manga .bar .first {
+    background: var(--manga-bar-first);
+}
+
+.b-stats_bar.manga .bar .second {
+    background: var(--manga-bar-second);
+}
+
+.profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name {
+    border-radius: var(--radius-sm);
+    display: inline-grid;
+    width: 31%;
+    text-align: center;
+    height: 49px;
+    margin: 5px;
+}
+
+.b-stats_bar .stat_names .stat_name .size {
+    display: block;
+    white-space: normal;
+}
+
+.b-stats_bar .stat_names .stat_name .size:before {
+    content: '';
+    padding-right: 1px;
+    float: left;
+}
+
+.b-stats_bar .stat_names .stat_name .size:after {
+    content: '';
+    padding-left: 1px;
+    float: right;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .profile-head .c-info .c-lists-info .b-stats_bar .stat_names .stat_name {
+        width: 47%;
+    }
+}
